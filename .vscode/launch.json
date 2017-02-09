@@ -5,7 +5,7 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/root/app",
+            "program": "/home/root/build/app",
             "args": ["HostName=hub-node-zzj.azure-devices.net\\;DeviceId=myinteledison\\;SharedAccessKey=qKLmnnpIwCavCz9Y3Ynxg/O6DfZQzcdKNqUqMZJEXbY="],
             "stopAtEntry": false,
             "cwd": "/home/root/",
