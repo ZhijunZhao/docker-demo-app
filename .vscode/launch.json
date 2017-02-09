@@ -22,7 +22,7 @@
                 "debuggerPath": "/usr/bin/gdb"
             },
             "sourceFileMap": {
-                "/home/root/": "C:\\app"
+                "/home/root/": "C:\\docker-demo-app"
             },
             "linux": {
                 "MIMode": "gdb",
