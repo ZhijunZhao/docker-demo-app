@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/root/app",
+            "args": ["HostName=hub-node-zzj.azure-devices.net\\;DeviceId=myinteledison\\;SharedAccessKey=qKLmnnpIwCavCz9Y3Ynxg/O6DfZQzcdKNqUqMZJEXbY="],
+            "stopAtEntry": false,
+            "cwd": "/home/root/",
+            "environment": [],
+            "externalConsole": true,
+            "pipeTransport": {
+                "pipeCwd": "C:\\Program Files (x86)\\PuTTY",
+                "pipeProgram": "C:\\Program Files (x86)\\PuTTY\\plink.exe",
+                "pipeArgs": [
+                    "-pw",
+                    "zhijzhao",
+                    "root@10.105.235.187"
+                ],
+                "debuggerPath": "/usr/bin/gdb"
+            },
+            "sourceFileMap": {
+                "/home/root/": "C:\\app"
+            },
+            "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        }
+    ]
+}
